@@ -5,6 +5,10 @@ export const AGENCY_NAME =
   process.env.NEXT_PUBLIC_AGENCY_NAME || "Your Agency";
 export const PRODUCT_NAME = "AI Front Desk";
 
+/** Optional "Powered by" logo. Set NEXT_PUBLIC_LOGO_URL to a path under /public
+ * (e.g. "/images/logo.png") or an absolute URL. Unset → text-only brand. */
+export const LOGO_URL = process.env.NEXT_PUBLIC_LOGO_URL || "";
+
 /** Where the Settings "Request a change" CTA points when a tenant has no Slack
  * channel. Configurable via env; empty (the default) hides the button entirely. */
 export const AGENCY_CONTACT_EMAIL = process.env.AGENCY_CONTACT_EMAIL ?? "";
