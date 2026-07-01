@@ -1,9 +1,9 @@
 # AI Front Desk
 
-A simple, self-hostable **client dashboard for [Assistable.ai](https://assistable.ai)**.
-Give each client a clean login to see what their AI voice agent handled — calls,
-recordings, transcripts, sentiment, and chat volume — instead of handing them the
-Assistable UI or a GoHighLevel iframe.
+A simple, self-hostable **client dashboard built on the [Assistable.ai](https://assistable.ai) API**.
+Give each client a clean, branded login to see what their AI voice agent handled — calls,
+recordings, transcripts, sentiment, and chat volume — a lightweight, read-only view you
+fully control.
 
 <p align="center">
   <img src="screenshots/overview-dark.png" alt="AI Front Desk — overview dashboard" width="100%" />
@@ -25,10 +25,10 @@ each client only ever sees their own, read-only data.
 
 ## Why
 
-If you run AI voice agents for clients on Assistable, the reporting options are the
-Assistable dashboard or an embedded GHL view — both are more than most clients want and
-harder to white-label. This is the opposite: one URL, one login, a read-only view of just
-their numbers. Self-hosted and yours to brand.
+Assistable is where you build and run your AI voice agents. This is a small companion for
+the client-facing side: when you'd rather give a client a simple, branded URL scoped to
+just their own numbers, drop this in front of the Assistable API. One URL, one login,
+read-only, self-hosted, and yours to brand.
 
 ## How it works
 
