@@ -129,18 +129,20 @@ export default function LoginPage() {
         </form>
 
         <div className="mt-6 flex items-center justify-center gap-2 text-xs text-foreground-subtle">
-          {LOGO_URL ? (
-            // eslint-disable-next-line @next/next/no-img-element -- LOGO_URL may be a data URI or arbitrary URL
-            <img
-              src={LOGO_URL}
-              width={16}
-              height={16}
-              alt={AGENCY_NAME}
-              className="opacity-90 invert dark:invert-0"
-            />
-          ) : null}
-          Powered by{" "}
-          <span className="font-medium text-foreground-muted">{AGENCY_NAME}</span>
+          Powered by
+          <span className="inline-flex items-center gap-1.5 font-medium text-foreground-muted">
+            {LOGO_URL ? (
+              // eslint-disable-next-line @next/next/no-img-element -- LOGO_URL may be a data URI or arbitrary URL
+              <img
+                src={LOGO_URL}
+                width={16}
+                height={16}
+                alt={AGENCY_NAME}
+                className="opacity-90 invert dark:invert-0"
+              />
+            ) : null}
+            {AGENCY_NAME}
+          </span>
         </div>
       </div>
     </main>
