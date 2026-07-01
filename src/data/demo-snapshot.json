@@ -1,0 +1,2004 @@
+{
+  "generatedAt": "2026-06-30",
+  "client": {
+    "name": "Acme Clinic",
+    "assistantName": "Ava",
+    "timezone": "America/New_York"
+  },
+  "rangeDays": 30,
+  "stats": {
+    "totalCalls": 423,
+    "completedCalls": 374,
+    "errorCalls": 8,
+    "totalDurationMinutes": 299,
+    "avgDurationSeconds": 48,
+    "sentimentBreakdown": {
+      "positive": 67,
+      "neutral": 285,
+      "negative": 22
+    }
+  },
+  "conversationStats": {
+    "total": 338,
+    "active": 338,
+    "totalMessages": 1870,
+    "aiMessages": 1122
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-06-17",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-18",
+      "calls": 17,
+      "answered": 17
+    },
+    {
+      "date": "2026-06-19",
+      "calls": 16,
+      "answered": 13
+    },
+    {
+      "date": "2026-06-20",
+      "calls": 6,
+      "answered": 5
+    },
+    {
+      "date": "2026-06-21",
+      "calls": 8,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-22",
+      "calls": 21,
+      "answered": 19
+    },
+    {
+      "date": "2026-06-23",
+      "calls": 23,
+      "answered": 21
+    },
+    {
+      "date": "2026-06-24",
+      "calls": 15,
+      "answered": 15
+    },
+    {
+      "date": "2026-06-25",
+      "calls": 23,
+      "answered": 21
+    },
+    {
+      "date": "2026-06-26",
+      "calls": 23,
+      "answered": 20
+    },
+    {
+      "date": "2026-06-27",
+      "calls": 2,
+      "answered": 0
+    },
+    {
+      "date": "2026-06-28",
+      "calls": 3,
+      "answered": 1
+    },
+    {
+      "date": "2026-06-29",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-30",
+      "calls": 14,
+      "answered": 13
+    }
+  ],
+  "calls": [
+    {
+      "id": "c0987",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Cameron T",
+      "contactPhoneMasked": "+1 ••• ••• 6865",
+      "durationSeconds": 124,
+      "sentiment": "NEGATIVE",
+      "summary": "Cameron T was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-29T15:59:25.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Cameron. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c0535",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Noel N",
+      "contactPhoneMasked": "+1 ••• ••• 3555",
+      "durationSeconds": 304,
+      "sentiment": "POSITIVE",
+      "summary": "Noel N called Acme Clinic to book a first wellness session. Ava answered questions about availability and confirmed an appointment for later in the week.",
+      "startedAt": "2026-06-27T15:19:57.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thank you for calling Acme Clinic, this is Ava. How can I help today?"
+        },
+        {
+          "role": "caller",
+          "text": "Hi, I'd like to book my first session."
+        },
+        {
+          "role": "agent",
+          "text": "Wonderful — I can help with that. Have you visited us before, or is this your first time?"
+        },
+        {
+          "role": "caller",
+          "text": "First time."
+        },
+        {
+          "role": "agent",
+          "text": "Great, welcome! We have openings Thursday morning. Would 10 AM work, Noel?"
+        },
+        {
+          "role": "caller",
+          "text": "Thursday at 10 works perfectly."
+        },
+        {
+          "role": "agent",
+          "text": "You're all set. You'll get a text confirmation shortly. See you Thursday!"
+        }
+      ]
+    },
+    {
+      "id": "c4005",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Wren C",
+      "contactPhoneMasked": "+1 ••• ••• 9345",
+      "durationSeconds": 71,
+      "sentiment": "NEUTRAL",
+      "summary": "Wren C called after hours. Ava shared the next available opening and offered to text a booking link.",
+      "startedAt": "2026-06-27T14:43:04.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "You've reached Acme Clinic. This is Ava — how can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "Are you open right now?"
+        },
+        {
+          "role": "agent",
+          "text": "We're closed for the evening, but I can text you a link to book online. Would that help?"
+        },
+        {
+          "role": "caller",
+          "text": "Sure, text me the link."
+        },
+        {
+          "role": "agent",
+          "text": "Sent! Have a good night."
+        }
+      ]
+    },
+    {
+      "id": "c1888",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Rowan A",
+      "contactPhoneMasked": "+1 ••• ••• 7639",
+      "durationSeconds": 216,
+      "sentiment": "NEUTRAL",
+      "summary": "Rowan A asked about pricing and hours at Acme Clinic. Ava shared the current package options and weekday availability.",
+      "startedAt": "2026-06-27T07:05:17.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "What are your hours and how much is a session?"
+        },
+        {
+          "role": "agent",
+          "text": "We're open weekdays 9 to 5. Single sessions and monthly packages are available — would you like me to text you the details?"
+        },
+        {
+          "role": "caller",
+          "text": "Yes, please text me."
+        },
+        {
+          "role": "agent",
+          "text": "Done — it's on the way. Anything else I can help with?"
+        },
+        {
+          "role": "caller",
+          "text": "No, that's all. Thanks."
+        }
+      ]
+    },
+    {
+      "id": "c3614",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Unknown caller",
+      "contactPhoneMasked": "+1 ••• ••• 9268",
+      "durationSeconds": 197,
+      "sentiment": "NEUTRAL",
+      "summary": "A caller asked about pricing and hours at Acme Clinic. Ava shared the current package options and weekday availability.",
+      "startedAt": "2026-06-26T19:11:06.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "What are your hours and how much is a session?"
+        },
+        {
+          "role": "agent",
+          "text": "We're open weekdays 9 to 5. Single sessions and monthly packages are available — would you like me to text you the details?"
+        },
+        {
+          "role": "caller",
+          "text": "Yes, please text me."
+        },
+        {
+          "role": "agent",
+          "text": "Done — it's on the way. Anything else I can help with?"
+        },
+        {
+          "role": "caller",
+          "text": "No, that's all. Thanks."
+        }
+      ]
+    },
+    {
+      "id": "c1479",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Noel A",
+      "contactPhoneMasked": "+1 ••• ••• 7305",
+      "durationSeconds": 117,
+      "sentiment": "NEUTRAL",
+      "summary": "Noel A requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-26T17:40:44.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c2841",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Unknown caller",
+      "contactPhoneMasked": "+1 ••• ••• 2044",
+      "durationSeconds": 58,
+      "sentiment": "NEUTRAL",
+      "summary": "A caller called after hours. Ava shared the next available opening and offered to text a booking link.",
+      "startedAt": "2026-06-25T10:12:18.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "You've reached Acme Clinic. This is Ava — how can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "Are you open right now?"
+        },
+        {
+          "role": "agent",
+          "text": "We're closed for the evening, but I can text you a link to book online. Would that help?"
+        },
+        {
+          "role": "caller",
+          "text": "Sure, text me the link."
+        },
+        {
+          "role": "agent",
+          "text": "Sent! Have a good night."
+        }
+      ]
+    },
+    {
+      "id": "c3573",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Tatum W",
+      "contactPhoneMasked": "+1 ••• ••• 4866",
+      "durationSeconds": 261,
+      "sentiment": "POSITIVE",
+      "summary": "Tatum W called Acme Clinic to book a first wellness session. Ava answered questions about availability and confirmed an appointment for later in the week.",
+      "startedAt": "2026-06-24T11:03:13.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thank you for calling Acme Clinic, this is Ava. How can I help today?"
+        },
+        {
+          "role": "caller",
+          "text": "Hi, I'd like to book my first session."
+        },
+        {
+          "role": "agent",
+          "text": "Wonderful — I can help with that. Have you visited us before, or is this your first time?"
+        },
+        {
+          "role": "caller",
+          "text": "First time."
+        },
+        {
+          "role": "agent",
+          "text": "Great, welcome! We have openings Thursday morning. Would 10 AM work, Tatum?"
+        },
+        {
+          "role": "caller",
+          "text": "Thursday at 10 works perfectly."
+        },
+        {
+          "role": "agent",
+          "text": "You're all set. You'll get a text confirmation shortly. See you Thursday!"
+        }
+      ]
+    },
+    {
+      "id": "c3386",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Casey W",
+      "contactPhoneMasked": "+1 ••• ••• 5218",
+      "durationSeconds": 74,
+      "sentiment": "NEGATIVE",
+      "summary": "Casey W was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-24T08:25:53.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Casey. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c0881",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Lane D",
+      "contactPhoneMasked": "+1 ••• ••• 6660",
+      "durationSeconds": 148,
+      "sentiment": "NEUTRAL",
+      "summary": "Lane D requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-23T18:32:28.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c1160",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Finley C",
+      "contactPhoneMasked": "+1 ••• ••• 5516",
+      "durationSeconds": 222,
+      "sentiment": "POSITIVE",
+      "summary": "Finley C called Acme Clinic to book a first wellness session. Ava answered questions about availability and confirmed an appointment for later in the week.",
+      "startedAt": "2026-06-22T09:32:47.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thank you for calling Acme Clinic, this is Ava. How can I help today?"
+        },
+        {
+          "role": "caller",
+          "text": "Hi, I'd like to book my first session."
+        },
+        {
+          "role": "agent",
+          "text": "Wonderful — I can help with that. Have you visited us before, or is this your first time?"
+        },
+        {
+          "role": "caller",
+          "text": "First time."
+        },
+        {
+          "role": "agent",
+          "text": "Great, welcome! We have openings Thursday morning. Would 10 AM work, Finley?"
+        },
+        {
+          "role": "caller",
+          "text": "Thursday at 10 works perfectly."
+        },
+        {
+          "role": "agent",
+          "text": "You're all set. You'll get a text confirmation shortly. See you Thursday!"
+        }
+      ]
+    },
+    {
+      "id": "c3167",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Drew M",
+      "contactPhoneMasked": "+1 ••• ••• 1644",
+      "durationSeconds": 171,
+      "sentiment": "POSITIVE",
+      "summary": "Drew M called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-21T17:50:38.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Drew. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c0344",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Tatum V",
+      "contactPhoneMasked": "+1 ••• ••• 8922",
+      "durationSeconds": 136,
+      "sentiment": "NEGATIVE",
+      "summary": "Tatum V was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-21T12:23:54.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Tatum. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c1084",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Avery W",
+      "contactPhoneMasked": "+1 ••• ••• 3500",
+      "durationSeconds": 90,
+      "sentiment": "NEUTRAL",
+      "summary": "Avery W called after hours. Ava shared the next available opening and offered to text a booking link.",
+      "startedAt": "2026-06-21T11:24:58.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "You've reached Acme Clinic. This is Ava — how can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "Are you open right now?"
+        },
+        {
+          "role": "agent",
+          "text": "We're closed for the evening, but I can text you a link to book online. Would that help?"
+        },
+        {
+          "role": "caller",
+          "text": "Sure, text me the link."
+        },
+        {
+          "role": "agent",
+          "text": "Sent! Have a good night."
+        }
+      ]
+    },
+    {
+      "id": "c2505",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Noel D",
+      "contactPhoneMasked": "+1 ••• ••• 1683",
+      "durationSeconds": 136,
+      "sentiment": "POSITIVE",
+      "summary": "Noel D called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-20T13:18:58.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Noel. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c2962",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": true,
+      "contactName": "Presley H",
+      "contactPhoneMasked": "+1 ••• ••• 7255",
+      "durationSeconds": 18,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-19T19:52:43.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c0698",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Drew W",
+      "contactPhoneMasked": "+1 ••• ••• 2460",
+      "durationSeconds": 185,
+      "sentiment": "NEUTRAL",
+      "summary": "Drew W asked about pricing and hours at Acme Clinic. Ava shared the current package options and weekday availability.",
+      "startedAt": "2026-06-19T19:37:44.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "What are your hours and how much is a session?"
+        },
+        {
+          "role": "agent",
+          "text": "We're open weekdays 9 to 5. Single sessions and monthly packages are available — would you like me to text you the details?"
+        },
+        {
+          "role": "caller",
+          "text": "Yes, please text me."
+        },
+        {
+          "role": "agent",
+          "text": "Done — it's on the way. Anything else I can help with?"
+        },
+        {
+          "role": "caller",
+          "text": "No, that's all. Thanks."
+        }
+      ]
+    },
+    {
+      "id": "c3222",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Finley A",
+      "contactPhoneMasked": "+1 ••• ••• 2690",
+      "durationSeconds": 70,
+      "sentiment": "NEUTRAL",
+      "summary": "Finley A requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-17T19:05:25.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c2791",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Finley A",
+      "contactPhoneMasked": "+1 ••• ••• 0575",
+      "durationSeconds": 91,
+      "sentiment": "NEGATIVE",
+      "summary": "Finley A was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-17T18:14:47.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Finley. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c2488",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": false,
+      "contactName": "Reese E",
+      "contactPhoneMasked": "+1 ••• ••• 1112",
+      "durationSeconds": 16,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-17T13:47:37.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c0403",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": false,
+      "contactName": "Lane H",
+      "contactPhoneMasked": "+1 ••• ••• 2267",
+      "durationSeconds": 5,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-17T13:38:43.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c3401",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": false,
+      "contactName": "Jordan L",
+      "contactPhoneMasked": "+1 ••• ••• 3494",
+      "durationSeconds": 14,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-17T09:54:44.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c1587",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Unknown caller",
+      "contactPhoneMasked": "+1 ••• ••• 0574",
+      "durationSeconds": 70,
+      "sentiment": "NEGATIVE",
+      "summary": "A caller was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-15T10:26:48.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Unknown. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c1323",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Parker P",
+      "contactPhoneMasked": "+1 ••• ••• 2653",
+      "durationSeconds": 139,
+      "sentiment": "POSITIVE",
+      "summary": "Parker P called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-15T08:35:05.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Parker. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c2345",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Marlowe H",
+      "contactPhoneMasked": "+1 ••• ••• 2678",
+      "durationSeconds": 216,
+      "sentiment": "POSITIVE",
+      "summary": "Marlowe H called Acme Clinic to book a first wellness session. Ava answered questions about availability and confirmed an appointment for later in the week.",
+      "startedAt": "2026-06-14T11:18:24.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thank you for calling Acme Clinic, this is Ava. How can I help today?"
+        },
+        {
+          "role": "caller",
+          "text": "Hi, I'd like to book my first session."
+        },
+        {
+          "role": "agent",
+          "text": "Wonderful — I can help with that. Have you visited us before, or is this your first time?"
+        },
+        {
+          "role": "caller",
+          "text": "First time."
+        },
+        {
+          "role": "agent",
+          "text": "Great, welcome! We have openings Thursday morning. Would 10 AM work, Marlowe?"
+        },
+        {
+          "role": "caller",
+          "text": "Thursday at 10 works perfectly."
+        },
+        {
+          "role": "agent",
+          "text": "You're all set. You'll get a text confirmation shortly. See you Thursday!"
+        }
+      ]
+    },
+    {
+      "id": "c2040",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Marlowe H",
+      "contactPhoneMasked": "+1 ••• ••• 4587",
+      "durationSeconds": 87,
+      "sentiment": "NEUTRAL",
+      "summary": "Marlowe H requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-13T11:38:43.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c1609",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": true,
+      "contactName": "Skyler C",
+      "contactPhoneMasked": "+1 ••• ••• 6936",
+      "durationSeconds": 6,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-10T19:57:05.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c1995",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Unknown caller",
+      "contactPhoneMasked": "+1 ••• ••• 5740",
+      "durationSeconds": 171,
+      "sentiment": "POSITIVE",
+      "summary": "A caller called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-10T12:00:27.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Unknown. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c1248",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": false,
+      "contactName": "Reese J",
+      "contactPhoneMasked": "+1 ••• ••• 6202",
+      "durationSeconds": 7,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-08T11:21:52.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c1758",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Harper P",
+      "contactPhoneMasked": "+1 ••• ••• 4932",
+      "durationSeconds": 243,
+      "sentiment": "POSITIVE",
+      "summary": "Harper P called Acme Clinic to book a first wellness session. Ava answered questions about availability and confirmed an appointment for later in the week.",
+      "startedAt": "2026-06-07T09:57:13.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thank you for calling Acme Clinic, this is Ava. How can I help today?"
+        },
+        {
+          "role": "caller",
+          "text": "Hi, I'd like to book my first session."
+        },
+        {
+          "role": "agent",
+          "text": "Wonderful — I can help with that. Have you visited us before, or is this your first time?"
+        },
+        {
+          "role": "caller",
+          "text": "First time."
+        },
+        {
+          "role": "agent",
+          "text": "Great, welcome! We have openings Thursday morning. Would 10 AM work, Harper?"
+        },
+        {
+          "role": "caller",
+          "text": "Thursday at 10 works perfectly."
+        },
+        {
+          "role": "agent",
+          "text": "You're all set. You'll get a text confirmation shortly. See you Thursday!"
+        }
+      ]
+    },
+    {
+      "id": "c2215",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Micah J",
+      "contactPhoneMasked": "+1 ••• ••• 9163",
+      "durationSeconds": 76,
+      "sentiment": "NEUTRAL",
+      "summary": "Micah J called after hours. Ava shared the next available opening and offered to text a booking link.",
+      "startedAt": "2026-06-06T15:46:03.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "You've reached Acme Clinic. This is Ava — how can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "Are you open right now?"
+        },
+        {
+          "role": "agent",
+          "text": "We're closed for the evening, but I can text you a link to book online. Would that help?"
+        },
+        {
+          "role": "caller",
+          "text": "Sure, text me the link."
+        },
+        {
+          "role": "agent",
+          "text": "Sent! Have a good night."
+        }
+      ]
+    },
+    {
+      "id": "c3916",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Jordan L",
+      "contactPhoneMasked": "+1 ••• ••• 1349",
+      "durationSeconds": 85,
+      "sentiment": "NEGATIVE",
+      "summary": "Jordan L was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-05T20:20:58.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Jordan. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c3868",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Rowan M",
+      "contactPhoneMasked": "+1 ••• ••• 3624",
+      "durationSeconds": 88,
+      "sentiment": "NEUTRAL",
+      "summary": "Rowan M requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-05T16:57:03.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c2149",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Taylor T",
+      "contactPhoneMasked": "+1 ••• ••• 3372",
+      "durationSeconds": 180,
+      "sentiment": "NEGATIVE",
+      "summary": "Taylor T was frustrated about a scheduling mix-up. Ava apologized, noted the details, and escalated the issue to the team for a callback.",
+      "startedAt": "2026-06-05T15:43:32.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "My appointment wasn't in the system when I showed up."
+        },
+        {
+          "role": "agent",
+          "text": "I'm really sorry about that, Taylor. I'll flag this for the team right away so we can make it right."
+        },
+        {
+          "role": "caller",
+          "text": "Please do, that was frustrating."
+        },
+        {
+          "role": "agent",
+          "text": "Understood — someone will call you back shortly to sort it out. Thank you for your patience."
+        }
+      ]
+    },
+    {
+      "id": "c3044",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Elliot V",
+      "contactPhoneMasked": "+1 ••• ••• 8472",
+      "durationSeconds": 173,
+      "sentiment": "NEUTRAL",
+      "summary": "Elliot V asked about pricing and hours at Acme Clinic. Ava shared the current package options and weekday availability.",
+      "startedAt": "2026-06-03T20:31:35.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "What are your hours and how much is a session?"
+        },
+        {
+          "role": "agent",
+          "text": "We're open weekdays 9 to 5. Single sessions and monthly packages are available — would you like me to text you the details?"
+        },
+        {
+          "role": "caller",
+          "text": "Yes, please text me."
+        },
+        {
+          "role": "agent",
+          "text": "Done — it's on the way. Anything else I can help with?"
+        },
+        {
+          "role": "caller",
+          "text": "No, that's all. Thanks."
+        }
+      ]
+    },
+    {
+      "id": "c2615",
+      "direction": "outbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Unknown caller",
+      "contactPhoneMasked": "+1 ••• ••• 6100",
+      "durationSeconds": 68,
+      "sentiment": "NEUTRAL",
+      "summary": "A caller requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-03T18:49:40.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c3713",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Tatum S",
+      "contactPhoneMasked": "+1 ••• ••• 1043",
+      "durationSeconds": 167,
+      "sentiment": "POSITIVE",
+      "summary": "Tatum S called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-03T14:33:00.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Tatum. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c0704",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": false,
+      "afterHours": true,
+      "contactName": "Hayden F",
+      "contactPhoneMasked": "+1 ••• ••• 3620",
+      "durationSeconds": 5,
+      "sentiment": "NEUTRAL",
+      "summary": "No conversation recorded",
+      "startedAt": "2026-06-01T20:30:18.000Z",
+      "assistantName": "Ava",
+      "hasRecording": false,
+      "transcript": []
+    },
+    {
+      "id": "c0170",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": false,
+      "contactName": "Reese F",
+      "contactPhoneMasked": "+1 ••• ••• 0233",
+      "durationSeconds": 125,
+      "sentiment": "POSITIVE",
+      "summary": "Reese F called to reschedule an upcoming appointment. Ava moved it to a later slot and confirmed the change.",
+      "startedAt": "2026-06-01T15:05:17.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Acme Clinic, this is Ava. How can I help?"
+        },
+        {
+          "role": "caller",
+          "text": "I need to move my appointment to Friday."
+        },
+        {
+          "role": "agent",
+          "text": "No problem, Reese. I have Friday at 2 PM open — shall I move you there?"
+        },
+        {
+          "role": "caller",
+          "text": "Friday at 2 is great."
+        },
+        {
+          "role": "agent",
+          "text": "All set — you'll get an updated confirmation. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "c0280",
+      "direction": "inbound",
+      "status": "COMPLETED",
+      "answered": true,
+      "afterHours": true,
+      "contactName": "Devon W",
+      "contactPhoneMasked": "+1 ••• ••• 0632",
+      "durationSeconds": 112,
+      "sentiment": "NEUTRAL",
+      "summary": "Devon W requested to speak with a team member about an account question. Ava took a message and let them know someone would follow up.",
+      "startedAt": "2026-06-01T07:47:38.000Z",
+      "assistantName": "Ava",
+      "hasRecording": true,
+      "transcript": [
+        {
+          "role": "agent",
+          "text": "Thanks for calling Acme Clinic, this is Ava."
+        },
+        {
+          "role": "caller",
+          "text": "Can I talk to someone about my account?"
+        },
+        {
+          "role": "agent",
+          "text": "Of course — our team can reach out. What's the best number and time to call you back?"
+        },
+        {
+          "role": "caller",
+          "text": "This number, anytime after noon."
+        },
+        {
+          "role": "agent",
+          "text": "Got it. Someone will follow up this afternoon. Thanks!"
+        }
+      ]
+    }
+  ],
+  "ranges": {
+    "7": {
+      "days": 7,
+      "stats": {
+        "totalCalls": 89,
+        "completedCalls": 77,
+        "errorCalls": 2,
+        "totalDurationMinutes": 90,
+        "avgDurationSeconds": 70,
+        "sentimentBreakdown": {
+          "positive": 14,
+          "neutral": 58,
+          "negative": 5
+        }
+      }
+    },
+    "30": {
+      "days": 30,
+      "stats": {
+        "totalCalls": 423,
+        "completedCalls": 374,
+        "errorCalls": 8,
+        "totalDurationMinutes": 299,
+        "avgDurationSeconds": 48,
+        "sentimentBreakdown": {
+          "positive": 67,
+          "neutral": 285,
+          "negative": 22
+        }
+      }
+    },
+    "60": {
+      "days": 60,
+      "stats": {
+        "totalCalls": 802,
+        "completedCalls": 705,
+        "errorCalls": 16,
+        "totalDurationMinutes": 693,
+        "avgDurationSeconds": 59,
+        "sentimentBreakdown": {
+          "positive": 127,
+          "neutral": 536,
+          "negative": 42
+        }
+      }
+    },
+    "90": {
+      "days": 90,
+      "stats": {
+        "totalCalls": 1184,
+        "completedCalls": 1044,
+        "errorCalls": 24,
+        "totalDurationMinutes": 974,
+        "avgDurationSeconds": 56,
+        "sentimentBreakdown": {
+          "positive": 188,
+          "neutral": 793,
+          "negative": 63
+        }
+      }
+    }
+  },
+  "dailyTrend90": [
+    {
+      "date": "2026-04-02",
+      "calls": 12,
+      "answered": 10
+    },
+    {
+      "date": "2026-04-03",
+      "calls": 9,
+      "answered": 6
+    },
+    {
+      "date": "2026-04-04",
+      "calls": 5,
+      "answered": 5
+    },
+    {
+      "date": "2026-04-05",
+      "calls": 5,
+      "answered": 3
+    },
+    {
+      "date": "2026-04-06",
+      "calls": 21,
+      "answered": 18
+    },
+    {
+      "date": "2026-04-07",
+      "calls": 14,
+      "answered": 13
+    },
+    {
+      "date": "2026-04-08",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-04-09",
+      "calls": 24,
+      "answered": 24
+    },
+    {
+      "date": "2026-04-10",
+      "calls": 10,
+      "answered": 7
+    },
+    {
+      "date": "2026-04-11",
+      "calls": 2,
+      "answered": 2
+    },
+    {
+      "date": "2026-04-12",
+      "calls": 6,
+      "answered": 3
+    },
+    {
+      "date": "2026-04-13",
+      "calls": 24,
+      "answered": 24
+    },
+    {
+      "date": "2026-04-14",
+      "calls": 16,
+      "answered": 16
+    },
+    {
+      "date": "2026-04-15",
+      "calls": 13,
+      "answered": 13
+    },
+    {
+      "date": "2026-04-16",
+      "calls": 17,
+      "answered": 16
+    },
+    {
+      "date": "2026-04-17",
+      "calls": 19,
+      "answered": 18
+    },
+    {
+      "date": "2026-04-18",
+      "calls": 6,
+      "answered": 5
+    },
+    {
+      "date": "2026-04-19",
+      "calls": 2,
+      "answered": 2
+    },
+    {
+      "date": "2026-04-20",
+      "calls": 13,
+      "answered": 12
+    },
+    {
+      "date": "2026-04-21",
+      "calls": 18,
+      "answered": 15
+    },
+    {
+      "date": "2026-04-22",
+      "calls": 21,
+      "answered": 19
+    },
+    {
+      "date": "2026-04-23",
+      "calls": 18,
+      "answered": 18
+    },
+    {
+      "date": "2026-04-24",
+      "calls": 19,
+      "answered": 16
+    },
+    {
+      "date": "2026-04-25",
+      "calls": 6,
+      "answered": 3
+    },
+    {
+      "date": "2026-04-26",
+      "calls": 6,
+      "answered": 5
+    },
+    {
+      "date": "2026-04-27",
+      "calls": 16,
+      "answered": 14
+    },
+    {
+      "date": "2026-04-28",
+      "calls": 16,
+      "answered": 14
+    },
+    {
+      "date": "2026-04-29",
+      "calls": 9,
+      "answered": 8
+    },
+    {
+      "date": "2026-04-30",
+      "calls": 16,
+      "answered": 14
+    },
+    {
+      "date": "2026-05-01",
+      "calls": 10,
+      "answered": 9
+    },
+    {
+      "date": "2026-05-02",
+      "calls": 7,
+      "answered": 4
+    },
+    {
+      "date": "2026-05-03",
+      "calls": 7,
+      "answered": 7
+    },
+    {
+      "date": "2026-05-04",
+      "calls": 22,
+      "answered": 22
+    },
+    {
+      "date": "2026-05-05",
+      "calls": 11,
+      "answered": 11
+    },
+    {
+      "date": "2026-05-06",
+      "calls": 13,
+      "answered": 12
+    },
+    {
+      "date": "2026-05-07",
+      "calls": 18,
+      "answered": 16
+    },
+    {
+      "date": "2026-05-08",
+      "calls": 15,
+      "answered": 12
+    },
+    {
+      "date": "2026-05-09",
+      "calls": 2,
+      "answered": 0
+    },
+    {
+      "date": "2026-05-10",
+      "calls": 7,
+      "answered": 7
+    },
+    {
+      "date": "2026-05-11",
+      "calls": 20,
+      "answered": 17
+    },
+    {
+      "date": "2026-05-12",
+      "calls": 11,
+      "answered": 8
+    },
+    {
+      "date": "2026-05-13",
+      "calls": 13,
+      "answered": 11
+    },
+    {
+      "date": "2026-05-14",
+      "calls": 20,
+      "answered": 20
+    },
+    {
+      "date": "2026-05-15",
+      "calls": 20,
+      "answered": 17
+    },
+    {
+      "date": "2026-05-16",
+      "calls": 4,
+      "answered": 2
+    },
+    {
+      "date": "2026-05-17",
+      "calls": 3,
+      "answered": 1
+    },
+    {
+      "date": "2026-05-18",
+      "calls": 18,
+      "answered": 16
+    },
+    {
+      "date": "2026-05-19",
+      "calls": 19,
+      "answered": 19
+    },
+    {
+      "date": "2026-05-20",
+      "calls": 23,
+      "answered": 22
+    },
+    {
+      "date": "2026-05-21",
+      "calls": 14,
+      "answered": 13
+    },
+    {
+      "date": "2026-05-22",
+      "calls": 22,
+      "answered": 20
+    },
+    {
+      "date": "2026-05-23",
+      "calls": 6,
+      "answered": 3
+    },
+    {
+      "date": "2026-05-24",
+      "calls": 2,
+      "answered": 0
+    },
+    {
+      "date": "2026-05-25",
+      "calls": 15,
+      "answered": 13
+    },
+    {
+      "date": "2026-05-26",
+      "calls": 22,
+      "answered": 20
+    },
+    {
+      "date": "2026-05-27",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-05-28",
+      "calls": 18,
+      "answered": 15
+    },
+    {
+      "date": "2026-05-29",
+      "calls": 9,
+      "answered": 8
+    },
+    {
+      "date": "2026-05-30",
+      "calls": 7,
+      "answered": 6
+    },
+    {
+      "date": "2026-05-31",
+      "calls": 2,
+      "answered": 2
+    },
+    {
+      "date": "2026-06-01",
+      "calls": 11,
+      "answered": 9
+    },
+    {
+      "date": "2026-06-02",
+      "calls": 24,
+      "answered": 23
+    },
+    {
+      "date": "2026-06-03",
+      "calls": 9,
+      "answered": 9
+    },
+    {
+      "date": "2026-06-04",
+      "calls": 14,
+      "answered": 14
+    },
+    {
+      "date": "2026-06-05",
+      "calls": 20,
+      "answered": 17
+    },
+    {
+      "date": "2026-06-06",
+      "calls": 3,
+      "answered": 2
+    },
+    {
+      "date": "2026-06-07",
+      "calls": 8,
+      "answered": 8
+    },
+    {
+      "date": "2026-06-08",
+      "calls": 16,
+      "answered": 14
+    },
+    {
+      "date": "2026-06-09",
+      "calls": 21,
+      "answered": 20
+    },
+    {
+      "date": "2026-06-10",
+      "calls": 17,
+      "answered": 14
+    },
+    {
+      "date": "2026-06-11",
+      "calls": 24,
+      "answered": 21
+    },
+    {
+      "date": "2026-06-12",
+      "calls": 19,
+      "answered": 16
+    },
+    {
+      "date": "2026-06-13",
+      "calls": 3,
+      "answered": 3
+    },
+    {
+      "date": "2026-06-14",
+      "calls": 3,
+      "answered": 0
+    },
+    {
+      "date": "2026-06-15",
+      "calls": 21,
+      "answered": 18
+    },
+    {
+      "date": "2026-06-16",
+      "calls": 21,
+      "answered": 20
+    },
+    {
+      "date": "2026-06-17",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-18",
+      "calls": 17,
+      "answered": 17
+    },
+    {
+      "date": "2026-06-19",
+      "calls": 16,
+      "answered": 13
+    },
+    {
+      "date": "2026-06-20",
+      "calls": 6,
+      "answered": 5
+    },
+    {
+      "date": "2026-06-21",
+      "calls": 8,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-22",
+      "calls": 21,
+      "answered": 19
+    },
+    {
+      "date": "2026-06-23",
+      "calls": 23,
+      "answered": 21
+    },
+    {
+      "date": "2026-06-24",
+      "calls": 15,
+      "answered": 15
+    },
+    {
+      "date": "2026-06-25",
+      "calls": 23,
+      "answered": 21
+    },
+    {
+      "date": "2026-06-26",
+      "calls": 23,
+      "answered": 20
+    },
+    {
+      "date": "2026-06-27",
+      "calls": 2,
+      "answered": 0
+    },
+    {
+      "date": "2026-06-28",
+      "calls": 3,
+      "answered": 1
+    },
+    {
+      "date": "2026-06-29",
+      "calls": 9,
+      "answered": 7
+    },
+    {
+      "date": "2026-06-30",
+      "calls": 14,
+      "answered": 13
+    }
+  ]
+}

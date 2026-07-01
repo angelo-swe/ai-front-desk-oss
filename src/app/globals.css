@@ -1,0 +1,278 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode (next-themes attribute="class") */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ──────────────────────────────────────────────────────────
+   Semantic tokens — light is the :root default, .dark overrides.
+   Default brand: blue primary + multi-hue AI gradient.
+   ────────────────────────────────────────────────────────── */
+:root {
+  --bg: #f5f6f9;
+  --bg-secondary: #eef1f5;
+  --bg-tertiary: #e6eaf1;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f3f5f9;
+
+  --foreground: #0d1117;
+  --foreground-muted: #5a6573;
+  /* #8b95a3 was 2.81:1 on the light bg (fails AA); #6b7785 clears ~4.6:1. */
+  --foreground-subtle: #6b7785;
+
+  /* Green text legible on the light background (the #22c55e fill fails AA as text). */
+  --success-text: #16a34a;
+
+  --border: #e3e7ee;
+  --border-muted: #edf0f4;
+
+  /* theme-aware liquid glass */
+  --glass-bg: rgba(255, 255, 255, 0.62);
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --glass-shadow: 0 10px 40px rgba(15, 23, 42, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  --glass-strong-bg: rgba(255, 255, 255, 0.74);
+  --glass-fallback: rgba(255, 255, 255, 0.92);
+
+  --scrollbar-thumb: rgba(15, 23, 42, 0.18);
+  --scrollbar-thumb-hover: rgba(15, 23, 42, 0.3);
+
+  /* aurora glow opacities for the themed background */
+  --aurora-opacity: 0.5;
+}
+
+.dark {
+  --bg: #0c0c0c;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #212121;
+  --bg-card: #1c1c1c;
+  --bg-card-hover: #242424;
+
+  --foreground: #faf5f4;
+  --foreground-muted: #94a3b8;
+  --foreground-subtle: #64748b;
+
+  /* Brighter green reads better than #22c55e on the near-black dark bg. */
+  --success-text: #4ade80;
+
+  --border: #333333;
+  --border-muted: #262626;
+
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --glass-strong-bg: rgba(255, 255, 255, 0.1);
+  --glass-fallback: rgba(20, 20, 20, 0.88);
+
+  --scrollbar-thumb: rgba(255, 255, 255, 0.15);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.25);
+
+  --aurora-opacity: 0.55;
+}
+
+@theme inline {
+  /* Map Tailwind color utilities onto the theme-aware tokens */
+  --color-bg: var(--bg);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+
+  --color-border: var(--border);
+  --color-border-muted: var(--border-muted);
+
+  /* Constant brand colors (theme-independent) */
+  /* Resting primary is #2563eb so white text on it clears WCAG AA (~4.9:1);
+     #3b82f6 only hit 3.68:1. The brighter brand blue lives on in the AI gradient
+     (--ai-grad-1) and glows, which carry no text. */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-success: #22c55e;
+  /* Darker success for green TEXT on light backgrounds (the fill #22c55e fails AA
+     as text). Theme-aware via --success-text. */
+  --color-success-text: var(--success-text);
+  --color-warning: #eab308;
+  --color-destructive: #ef4444;
+
+  --font-heading: var(--font-sora);
+  --font-body: var(--font-inter);
+
+  /* AI gradient stack */
+  --ai-grad-1: #3b82f6;
+  --ai-grad-2: #6366f1;
+  --ai-grad-3: #8b5cf6;
+  --ai-grad-4: #f43f5e;
+  --ai-grad-5: #fbbf24;
+  --ai-gradient-primary: linear-gradient(
+    135deg,
+    var(--ai-grad-1) 0%,
+    var(--ai-grad-2) 28%,
+    var(--ai-grad-3) 56%,
+    var(--ai-grad-4) 82%,
+    var(--ai-grad-5) 100%
+  );
+  --ai-gradient-subtle: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.18) 0%,
+    rgba(139, 92, 246, 0.14) 50%,
+    rgba(244, 63, 94, 0.1) 100%
+  );
+}
+
+/* ── Base ── */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a,
+button,
+[role="button"] {
+  -webkit-tap-highlight-color: rgba(59, 130, 246, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ── Liquid glass (theme-aware) ── */
+.liquid-glass {
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  backdrop-filter: blur(24px) saturate(140%);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 1rem;
+  box-shadow: var(--glass-shadow);
+}
+
+.liquid-glass-strong {
+  -webkit-backdrop-filter: blur(32px) saturate(150%);
+  backdrop-filter: blur(32px) saturate(150%);
+  background: var(--glass-strong-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  box-shadow: var(--glass-shadow);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .liquid-glass,
+  .liquid-glass-strong {
+    background: var(--glass-fallback);
+  }
+}
+
+/* ── Glow utilities ── */
+.text-glow-primary {
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.45);
+}
+.box-glow-primary {
+  box-shadow: 0 0 30px -5px rgba(59, 130, 246, 0.3), 0 0 15px -5px rgba(59, 130, 246, 0.2);
+}
+.cinematic-text-shadow {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* ── Focus ring ── */
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── AI gradient text + keyframes ── */
+@keyframes ai-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+@keyframes ai-pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+.ai-gradient-text {
+  background-image: var(--ai-gradient-primary);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: ai-flow 6s linear infinite;
+}
+
+/* number count-up tabular alignment */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  /* The "live" status dot pings continuously — stop it outright (the static dot
+     still reads as active). */
+  .animate-ping {
+    animation: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

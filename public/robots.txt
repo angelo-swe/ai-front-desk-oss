@@ -1,0 +1,3 @@
+# AI Front Desk is a private, login-gated client dashboard. Not for indexing.
+User-agent: *
+Disallow: /
