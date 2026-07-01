@@ -71,7 +71,7 @@ export default function LoginPage() {
               type="email"
               required
               autoComplete="email"
-              placeholder="you@yourpractice.com"
+              placeholder="you@yourbusiness.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="focus-ring w-full rounded-xl border border-border bg-bg-card px-4 py-3 text-sm text-foreground"

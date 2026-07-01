@@ -54,7 +54,7 @@ export default async function SettingsPage() {
 
       <section className="liquid-glass overflow-hidden">
         <div className="divide-y divide-border">
-          <Row icon={Phone} label="Practice" value={tenant.name} />
+          <Row icon={Phone} label="Business" value={tenant.name} />
           <Row
             icon={MessageCircle}
             label="AI receptionist"
@@ -94,7 +94,7 @@ export default async function SettingsPage() {
             href={`mailto:${AGENCY_CONTACT_EMAIL}?subject=${encodeURIComponent(
               `AI Front Desk change request — ${tenant.name}`,
             )}&body=${encodeURIComponent(
-              `Practice: ${tenant.name} (${tenant.slug})\n\nWhat I'd like to change:\n`,
+              `Business: ${tenant.name} (${tenant.slug})\n\nWhat I'd like to change:\n`,
             )}`}
             className="focus-ring mt-4 inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-hover"
           >
