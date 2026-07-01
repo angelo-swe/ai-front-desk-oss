@@ -5,8 +5,10 @@ Give each client a clean login to see what their AI voice agent handled — call
 recordings, transcripts, sentiment, and chat volume — instead of handing them the
 Assistable UI or a GoHighLevel iframe.
 
-<!-- Add a hero screenshot at screenshots/hero.png and uncomment:
-![AI Front Desk — overview dashboard](screenshots/hero.png) -->
+<p align="center">
+  <img src="screenshots/login-light.png" alt="AI Front Desk — sign-in, light mode" width="49%" />
+  <img src="screenshots/login-dark.png" alt="AI Front Desk — sign-in, dark mode" width="49%" />
+</p>
 
 Built for people already using the Assistable **API / CLI / MCP**: point it at your
 API key + a subaccount, deploy it, and send each client a URL and a login. It reads
